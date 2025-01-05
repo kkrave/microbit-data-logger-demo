@@ -11,11 +11,11 @@ datalogger.onLogFull(function () {
 input.onButtonPressed(Button.A, function () {
     Logging = true
     basic.showLeds(`
-        . # . . .
-        . # # . .
-        . # # # .
-        . # # . .
-        . # . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
+        . . . . .
         `)
     while (Logging) {
         datalogger.log(
@@ -55,7 +55,6 @@ input.onButtonPressed(Button.B, function () {
 })
 let Logging = false
 basic.showIcon(IconNames.Happy)
-datalogger.deleteLog(datalogger.DeleteType.Full)
 datalogger.setColumnTitles(
 "Accel.X",
 "Accel.Y",
