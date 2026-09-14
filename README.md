@@ -19,7 +19,7 @@ To edit this repository in MakeCode.
 * paste **https://github.com/kkrave/microbit-data-logger-demo** and click import
 
 ## Share the project with students to use in Microsoft Makecode editor:
-* open [https://microbit.org/#pub:github:kkrave/microbit-data-logger-demo](url)
+* open [https://makecode.microbit.org/#pub:github:kkrave/microbit-data-logger-demo](url)
 
 #### Metadata (used for search, rendering)
 
