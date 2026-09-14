@@ -54,6 +54,9 @@ input.onButtonPressed(Button.B, function () {
         `)
 })
 let Logging = false
+bluetooth.startAccelerometerService()
+bluetooth.startLEDService()
+bluetooth.startTemperatureService()
 basic.showIcon(IconNames.Happy)
 datalogger.setColumnTitles(
 "Accel.X",
